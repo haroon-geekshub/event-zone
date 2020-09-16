@@ -1,0 +1,157 @@
+*{
+	margin: 0;  padding: 0; box-sizing: border-box; font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 75px;
+	position: relative;
+	
+}
+.navbar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.logo {
+	display: flex;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 25px 40px;
+}
+.menu{
+    justify-content: flex-end;
+	display: flex;
+	width: 55%;
+	margin-right: 20px;
+}
+.menu ul{
+	display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+}
+.menu ul li a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: grey;
+	padding:0px 8px;
+}
+.active, ul li:hover{
+
+	border-bottom: 2px solid #5dade2;
+
+}
+.img1{
+
+background-image: url('homepic.jpg');
+height: 75vh;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.yspt{
+	padding-bottom: 45px;
+}
+.yej h2{
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	font-weight: normal;
+}
+.yej h1{
+	color: #ffd966;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 25px;
+	font-weight: 600;
+	padding-bottom: 40px;
+}
+.pse1{
+	background: rgba(0, 4, 0, 0.4);
+	display: flex;
+	justify-content: center;
+	 height: 95px;
+	    align-items: center;
+}
+.PSE {
+	  width: 90%;
+	height: 50px;
+	border-radius: 8px;
+	padding-left: 10px;
+	font-size: 17px;
+	outline: none
+}
+.prgh{
+	text-align: center;
+	font-size: 25px;
+	padding-top: 35px;
+	color: white;
+	
+}
+.btm-h{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+}
+.logo1{
+	display: flex;
+	padding: 20px 50px;
+}
+.b-menu{
+	justify-content: flex-end;
+	display: flex;
+	width: 88%;
+	padding-right: 60px;
+}
+
+
+.b-menu .apa ul li:hover{
+	border-bottom: none;
+} 
+.apa ul {
+	display: flex;
+	flex-direction: column;
+	 padding-right: 4px;
+    padding-left: 4px;
+    font-size: 15px;
+}
+.apa ul li:first-child{
+	font-size:25px;
+}
+.apa ul li a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: grey;
+}
+.b-menu .hc ul li:hover{
+	border-bottom: none;
+}
+.hc ul{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4px;
+    padding-left: 4px;
+    font-size: 15px;
+}
+.hc ul li:first-child{
+	font-size:25px;
+}
+.hc ul li a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: grey;
+}

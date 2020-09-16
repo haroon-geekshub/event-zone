@@ -1,0 +1,251 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box; font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.logo {
+	display: flex;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 20px 40px;
+}
+.menu{
+	justify-content: flex-end;
+	display: flex;
+	width: 57%;
+	margin-right: 20px;
+}
+.menu  ul{
+	display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+.menu  ul  li{
+	list-style: none;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+
+}
+.menu  ul  li  a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: grey;
+	padding:0px 8px;
+}
+.menu ul li:hover{
+
+	border-bottom: 2px solid #5dade2;
+}
+.img1{
+
+background-image: url('dark1.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+background-position: center;
+align-items: center;
+}
+.border{
+	border: 1px solid grey;
+	width: 40%;
+	max-width: 1000px;
+	padding-top: 25px;
+	background-color: #efefef;
+}
+.cu{
+ color: gray;
+ height: 80px;
+}
+.cu h2{
+	margin-bottom: 14px;
+    padding-left: 15px;
+    font-weight: 400;
+}
+.cu h4{
+	margin-bottom: 14px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.m-div{
+	margin-left: 15px;
+	    font-size: 20px;
+	    background-color:#efefef;
+}
+.y-n{
+	background-color: #efefef;
+    width: 95%;
+    padding-bottom: 25px;
+}
+.y-n input{
+	font-size: 20px;
+	padding: 10px 10px;
+	width: 100%;
+}
+.e-adres{
+	background-color:#efefef;
+	width: 95%;
+	padding-bottom: 25px;
+}
+.e-adres input{
+	font-size: 20px;
+	padding: 10px 20px;
+	width: 100%;
+}
+.cmpny{
+	background-color: #efefef;
+	width: 95%;
+	padding-bottom: 25px;
+}
+.cmpny input{
+	font-size: 20px;
+	padding: 10px 20px;
+	width: 100%;
+}
+.msg{
+	background-color:#efefef;
+	width: 95%;
+	padding-bottom: 25px;
+}
+.msg input{
+	font-size: 20px;
+	padding: 50px 20px;
+	width: 100%;
+	padding-top: 20px
+}
+.btn2{
+    display: flex;
+	align-items: center;
+	padding: 5px 0px;
+	background-color: #efefef;
+	padding-bottom: 40px;
+}
+.btn2 button {
+background-color: #0383c9;
+padding: 10px 20px;
+border-radius: 5px;
+font-size: 18px;
+color: white;
+border: none;
+}
+.btn2 h5{
+	margin-left: 20px;
+    color: #0383c9;
+}.btm-h1{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+}
+.logo1{
+	display: flex;
+	padding: 2% 4%;
+}
+.b-menu{
+	justify-content: flex-end;
+	display: flex;
+	width: 88%;
+	padding-right: 60px;
+}
+
+
+.b-menu .apa ul li:hover{
+	border-bottom: none;
+} 
+.apa ul {
+	display: flex;
+	flex-direction: column;
+	 padding-right: 4px;
+    padding-left: 4px;
+    font-size: 15px;
+}
+.apa ul li:first-child{
+	font-size:25px;
+}
+.apa ul li a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: grey;
+}
+.b-menu .hc ul li:hover{
+	border-bottom: none;
+}
+.hc ul{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4px;
+    padding-left: 4px;
+    font-size: 15px;
+}
+.hc ul li:first-child{
+	font-size:25px;
+}
+.hc ul li a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: grey;
+}
+.btm-h1{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+}
+.logo1{
+	display: flex;
+	padding: 2% 4%;
+}
+.b-menu{
+	justify-content: flex-end;
+	display: flex;
+	width: 88%;
+	padding-right: 60px;
+}
+
+
+.b-menu .apa ul li:hover{
+	border-bottom: none;
+} 
+.apa ul {
+	display: flex;
+	flex-direction: column;
+	 padding-right: 4px;
+    padding-left: 4px;
+    font-size: 15px;
+}
+.apa ul li:first-child{
+	font-size:25px;
+}
+.apa ul li a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: grey;
+}
+.b-menu .hc ul li:hover{
+	border-bottom: none;
+}
+.hc ul{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4px;
+    padding-left: 4px;
+    font-size: 15px;
+}
+.hc ul li:first-child{
+	font-size:25px;
+}
+.hc ul li a{
+	text-transform: capitalize;
+	text-decoration: none;
+	color: grey;
+}
